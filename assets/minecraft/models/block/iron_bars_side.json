@@ -1,0 +1,58 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+"ambientocclusion": false,
+    "textures": {
+        "particle": "blocks/iron_bars",
+        "0": "blocks/iron_bars1"
+    },
+    "elements": [
+        {
+            "name": "End",
+            "from": [ 7.4, 0.8, 0.0 ], 
+            "to": [ 8.6, 15.200000000000001, 0.6 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 2.0, 1.0, 4.0, 15.0 ] },
+                "east": { "texture": "#0", "uv": [ 2.0, 1.0, 3.0, 15.0 ] },
+                "south": { "texture": "#0", "uv": [ 2.0, 1.0, 4.0, 15.0 ] },
+                "west": { "texture": "#0", "uv": [ 3.0, 1.0, 4.0, 15.0 ] }
+            }
+        },
+        {
+            "name": "Top",
+            "from": [ 7.0, 15.2, 0.0 ], 
+            "to": [ 9.0, 16.0, 7.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 2.0, 0.0, 4.0, 1.0 ] },
+                "east": { "texture": "#0", "uv": [ 13.0, 0.0, 14.0, 7.0 ], "rotation": 90 },
+                "south": { "texture": "#0", "uv": [ 2.0, 0.0, 4.0, 1.0 ] },
+                "west": { "texture": "#0", "uv": [ 13.0, 0.0, 12.0, 8.0 ], "rotation": 90 },
+                "up": { "texture": "#0", "uv": [ 6.0, 0.0, 8.0, 7.0 ] },
+                "down": { "texture": "#0", "uv": [ 8.0, 0.0, 6.0, 7.0 ] }
+            }
+        },
+        {
+            "name": "Middle",
+            "from": [ 7.4, 0.8, 3.4 ], 
+            "to": [ 8.6, 15.200000000000001, 4.6 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 2.0, 1.0, 4.0, 15.0 ] },
+                "east": { "texture": "#0", "uv": [ 2.0, 1.0, 4.0, 15.0 ] },
+                "south": { "texture": "#0", "uv": [ 2.0, 1.0, 4.0, 15.0 ] },
+                "west": { "texture": "#0", "uv": [ 2.0, 1.0, 4.0, 15.0 ] }
+            }
+        },
+        {
+            "name": "Bottom",
+            "from": [ 7.0, 0.0, 0.0 ], 
+            "to": [ 9.0, 0.8, 7.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 2.0, 15.0, 4.0, 16.0 ] },
+                "east": { "texture": "#0", "uv": [ 12.0, 0.0, 13.0, 7.0 ], "rotation": 90 },
+                "south": { "texture": "#0", "uv": [ 2.0, 15.0, 4.0, 16.0 ] },
+                "west": { "texture": "#0", "uv": [ 14.0, 0.0, 13.0, 8.0 ], "rotation": 90 },
+                "up": { "texture": "#0", "uv": [ 6.0, 0.0, 8.0, 7.0 ] },
+                "down": { "texture": "#0", "uv": [ 8.0, 0.0, 6.0, 7.0 ] }
+            }
+        }
+    ]
+}

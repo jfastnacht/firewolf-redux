@@ -1,0 +1,49 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "blocks/planks_jungle",
+		"0": "blocks/door_jungle"
+	},
+	"elements": [
+		{
+			"from": [ 0, 0, 13 ],
+			"to": [ 3, 16, 16 ],
+			"faces": {
+				"north": { "uv": [ 8, 0, 6.5, 8 ], "texture": "#0" },
+				"south": { "uv": [ 5, 0, 6.5, 8 ], "texture": "#0", "cullface": "south" },
+				"west": { "uv": [ 14.5, 0, 16, 8 ], "texture": "#0" },
+				"east": { "uv": [ 8, 0, 9.5, 8 ], "texture": "#0" }
+			}
+		},
+		{
+			"from": [ 0, 0, 0 ],
+			"to": [ 3, 16, 3 ],
+			"faces": {
+				"north": { "uv": [ 6.5, 0, 5, 8 ], "texture": "#0" },
+				"south": { "uv": [ 6.5, 0, 8, 8 ], "texture": "#0" },
+				"west": { "uv": [ 8, 0, 9.5, 8 ], "texture": "#0" },
+				"east": { "uv": [ 14.5, 0, 16, 8 ], "texture": "#0" }
+			}
+		},
+		{
+			"from": [ 0, 0, 0 ],
+			"to": [ 3, 8, 16 ],
+			"faces": {
+				"down": { "uv": [ 3.5, 8, 5, 16 ], "texture": "#0" },
+				"up": { "uv": [ 3.5, 8, 5, 16 ], "texture": "#0" },
+				"west": { "uv": [ 8, 4, 16, 8 ], "texture": "#0" },
+				"east": { "uv": [ 8, 4, 16, 8 ], "texture": "#0" }
+			}
+		},
+		{
+			"from": [ 0, 13, 0 ],
+			"to": [ 3, 16, 16 ],
+			"faces": {
+				"down": { "uv": [ 3.5, 8, 5, 16 ], "texture": "#0" },
+				"up": { "uv": [ 3.5, 8, 5, 16 ], "texture": "#0" },
+				"west": { "uv": [ 8, 0, 16, 1.5 ], "texture": "#0" },
+				"east": { "uv": [ 8, 0, 16, 1.5 ], "texture": "#0" }
+			}
+		}
+	]
+}

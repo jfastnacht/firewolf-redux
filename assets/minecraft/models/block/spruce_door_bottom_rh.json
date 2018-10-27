@@ -1,0 +1,21 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "blocks/planks_spruce",
+		"0": "blocks/door_spruce"
+	},
+	"elements": [
+		{
+			"from": [ 0, 0, 0 ],
+			"to": [ 3, 16, 16 ],
+			"faces": {
+				"down": { "uv": [ 3.5, 8, 5, 16 ], "texture": "#0" },
+				"up": { "uv": [ 5, 8, 3.5, 16 ], "texture": "#0", "cullface": "up" },
+				"north": { "uv": [ 8, 8, 6.5, 16 ], "texture": "#0", "cullface": "north" },
+				"south": { "uv": [ 5, 8, 6.5, 16 ], "texture": "#0", "cullface": "south" },
+				"west": { "uv": [ 16, 8, 8, 16 ], "texture": "#0", "cullface": "west" },
+				"east": { "uv": [ 8, 8, 16, 16 ], "texture": "#0" }
+			}
+		}
+	]
+}

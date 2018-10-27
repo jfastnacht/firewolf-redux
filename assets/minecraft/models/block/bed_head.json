@@ -1,0 +1,45 @@
+{
+	"__comment": "Designed by Keitsu with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "blocks/bed_head_top",
+		"0": "blocks/bed_head_side",
+		"1": "blocks/bed_head_end",
+		"2": "blocks/bed_head_top",
+		"3": "blocks/bed_head_underside"
+	},
+	"elements": [
+		{
+			"from": [ 0, 3, 0 ],
+			"to": [ 16, 9, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#3", "rotation": 270 },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#2", "rotation": 90 },
+				"south": { "uv": [ 0, 7, 16, 13 ], "texture": "#1" },
+				"west": { "uv": [ 0, 7, 16, 13 ], "texture": "#0" },
+				"east": { "uv": [ 16, 7, 0, 13 ], "texture": "#0" }
+			}
+		},
+		{
+			"from": [ 13, 0, 13 ],
+			"to": [ 16, 3, 16 ],
+			"faces": {
+				"down": { "uv": [ 13, 13, 16, 16 ], "texture": "#3", "rotation": 270 },
+				"north": { "uv": [ 16, 13, 13, 16 ], "texture": "#0" },
+				"south": { "uv": [ 13, 13, 16, 16 ], "texture": "#1" },
+				"west": { "uv": [ 13, 13, 16, 16 ], "texture": "#0" },
+				"east": { "uv": [ 16, 13, 13, 16 ], "texture": "#0" }
+			}
+		},
+		{
+			"from": [ 0, 0, 13 ],
+			"to": [ 3, 3, 16 ],
+			"faces": {
+				"down": { "uv": [ 13, 0, 16, 3 ], "texture": "#3", "rotation": 270 },
+				"north": { "uv": [ 13, 13, 16, 16 ], "texture": "#0" },
+				"south": { "uv": [ 0, 13, 3, 16 ], "texture": "#1" },
+				"west": { "uv": [ 3, 13, 0, 16 ], "texture": "#1" },
+				"east": { "uv": [ 16, 13, 13, 16 ], "texture": "#0" }
+			}
+		}
+	]
+}

@@ -1,0 +1,154 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+	"ambientocclusion": false,
+	"parent": "block/block",
+    "textures": {
+        "particle": "blocks/cauldron_side",
+        "0": "blocks/cauldron_side",
+        "1": "blocks/cauldron_top",
+        "2": "blocks/cauldron_bottom"
+    },
+    "elements": [
+        {
+            "name": "West Wall",
+            "from": [ 0.0, 3.0, 0.0 ], 
+            "to": [ 2.0, 16.0, 16.0 ], 
+            "faces": {
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 13.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 13.0 ], "cullface": "west" },
+                "up": { "texture": "#1", "uv": [ 0.0, 0.0, 2.0, 16.0 ], "cullface": "up" }
+            }
+        },
+        {
+            "name": "Base",
+            "from": [ 0.0, 3.0, 0.0 ], 
+            "to": [ 16.0, 4.0, 16.0 ], 
+            "faces": {
+                "up": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "cullface": "up" },
+                "down": { "texture": "#2", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "East Wall",
+            "from": [ 14.0, 3.0, 0.0 ], 
+            "to": [ 16.0, 16.0, 16.0 ], 
+            "faces": {
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 13.0 ], "cullface": "east" },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 13.0 ] },
+                "up": { "texture": "#1", "uv": [ 14.0, 0.0, 16.0, 16.0 ], "cullface": "up" }
+            }
+        },
+        {
+            "name": "North Wall",
+            "from": [ 0.0, 3.0, 0.0 ], 
+            "to": [ 16.0, 16.0, 2.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 13.0 ], "cullface": "north" },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 13.0 ] },
+                "up": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 2.0 ], "cullface": "up" }
+            }
+        },
+        {
+            "name": "South Wall",
+            "from": [ 0.0, 3.0, 14.0 ], 
+            "to": [ 16.0, 16.0, 16.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 13.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 13.0 ], "cullface": "south" },
+                "up": { "texture": "#1", "uv": [ 0.0, 14.0, 16.0, 16.0 ], "cullface": "up" }
+            }
+        },
+        {
+            "name": "North West CNR",
+            "from": [ 0.0, 0.0, 0.0 ], 
+            "to": [ 4.0, 3.0, 2.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 12.0, 13.0, 16.0, 16.0 ] },
+                "east": { "texture": "#0", "uv": [ 10.0, 13.0, 12.0, 16.0 ] },
+                "south": { "texture": "#0", "uv": [ 6.0, 13.0, 10.0, 16.0 ] },
+                "west": { "texture": "#0", "uv": [ 4.0, 13.0, 2.0, 16.0 ] },
+                "down": { "texture": "#2", "uv": [ 0.0, 14.0, 4.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "West North CNR",
+            "from": [ 0.0, 0.0, 2.0 ], 
+            "to": [ 2.0, 3.0, 4.0 ], 
+            "faces": {
+                "east": { "texture": "#0", "uv": [ 6.0, 13.0, 8.0, 16.0 ] },
+                "south": { "texture": "#0", "uv": [ 4.0, 13.0, 6.0, 16.0 ] },
+                "west": { "texture": "#0", "uv": [ 2.0, 13.0, 4.0, 16.0 ] },
+                "down": { "texture": "#2", "uv": [ 0.0, 12.0, 2.0, 14.0 ] }
+            }
+        },
+        {
+            "name": "North East CNR",
+            "from": [ 12.0, 0.0, 0.0 ], 
+            "to": [ 16.0, 3.0, 2.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 13.0, 4.0, 16.0 ] },
+                "east": { "texture": "#0", "uv": [ 14.0, 13.0, 16.0, 16.0 ] },
+                "south": { "texture": "#0", "uv": [ 6.0, 13.0, 10.0, 16.0 ] },
+                "west": { "texture": "#0", "uv": [ 4.0, 13.0, 6.0, 16.0 ] },
+                "down": { "texture": "#2", "uv": [ 12.0, 14.0, 16.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "East North CNR",
+            "from": [ 14.0, 0.0, 2.0 ], 
+            "to": [ 16.0, 3.0, 4.0 ], 
+            "faces": {
+                "east": { "texture": "#0", "uv": [ 12.0, 13.0, 14.0, 16.0 ] },
+                "south": { "texture": "#0", "uv": [ 8.0, 13.0, 10.0, 16.0 ] },
+                "west": { "texture": "#0", "uv": [ 6.0, 13.0, 8.0, 16.0 ] },
+                "down": { "texture": "#2", "uv": [ 14.0, 12.0, 16.0, 14.0 ] }
+            }
+        },
+        {
+            "name": "South West CNR",
+            "from": [ 0.0, 0.0, 14.0 ], 
+            "to": [ 4.0, 3.0, 16.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 6.0, 13.0, 10.0, 16.0 ] },
+                "east": { "texture": "#0", "uv": [ 4.0, 13.0, 6.0, 16.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 13.0, 4.0, 16.0 ] },
+                "west": { "texture": "#0", "uv": [ 14.0, 13.0, 16.0, 16.0 ] },
+                "down": { "texture": "#2", "uv": [ 0.0, 0.0, 4.0, 2.0 ] }
+            }
+        },
+        {
+            "name": "West South CNR",
+            "from": [ 0.0, 0.0, 12.0 ], 
+            "to": [ 2.0, 3.0, 14.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 10.0, 13.0, 12.0, 16.0 ] },
+                "east": { "texture": "#0", "uv": [ 8.0, 13.0, 10.0, 16.0 ] },
+                "west": { "texture": "#0", "uv": [ 12.0, 13.0, 14.0, 16.0 ] },
+                "down": { "texture": "#2", "uv": [ 0.0, 2.0, 2.0, 4.0 ] }
+            }
+        },
+        {
+            "name": "South East CNR",
+            "from": [ 12.0, 0.0, 14.0 ], 
+            "to": [ 16.0, 3.0, 16.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 6.0, 13.0, 10.0, 16.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 13.0, 2.0, 16.0 ] },
+                "south": { "texture": "#0", "uv": [ 12.0, 13.0, 16.0, 16.0 ] },
+                "west": { "texture": "#0", "uv": [ 10.0, 13.0, 12.0, 16.0 ] },
+                "down": { "texture": "#2", "uv": [ 12.0, 0.0, 16.0, 2.0 ] }
+            }
+        },
+        {
+            "name": "East South CNR",
+            "from": [ 14.0, 0.0, 12.0 ], 
+            "to": [ 16.0, 3.0, 14.0 ], 
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 4.0, 13.0, 6.0, 16.0 ] },
+                "east": { "texture": "#0", "uv": [ 2.0, 13.0, 4.0, 16.0 ] },
+                "west": { "texture": "#0", "uv": [ 6.0, 13.0, 8.0, 16.0 ] },
+                "down": { "texture": "#2", "uv": [ 14.0, 2.0, 16.0, 4.0 ] }
+            }
+        }
+    ]
+}

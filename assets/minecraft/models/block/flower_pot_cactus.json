@@ -1,0 +1,72 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "blocks/flower_pot",
+		"dirt": "blocks/dirt",
+		"cactus_side": "blocks/cactus_side",
+		"flower_pot": "blocks/flower_pot",
+		"cactus_top": "blocks/cactus_top"
+	},
+	"elements": [ 	 
+		{
+			"from": [ 5, 0, 5 ],
+			"to": [ 6, 6, 11 ],
+			"faces": {
+				"down": { "uv": [ 5, 4, 6, 10 ], "texture": "#flower_pot", "cullface": "down" },
+				"up": { "uv": [ 5, 4, 6, 10 ], "texture": "#flower_pot" },
+				"west": { "uv": [ 5, 10, 11, 16 ], "texture": "#flower_pot" },
+				"east": { "uv": [ 5, 10, 11, 16 ], "texture": "#flower_pot" }
+			}
+		},
+		{
+			"from": [ 10, 0, 5 ],
+			"to": [ 11, 6, 11 ],
+			"faces": {
+				"down": { "uv": [ 10, 4, 11, 10 ], "texture": "#flower_pot", "cullface": "down" },
+				"up": { "uv": [ 10, 4, 11, 10 ], "texture": "#flower_pot" },
+				"west": { "uv": [ 5, 10, 11, 16 ], "texture": "#flower_pot" },
+				"east": { "uv": [ 5, 10, 11, 16 ], "texture": "#flower_pot" }
+			}
+		},
+		{
+			"from": [ 5, 0, 5 ],
+			"to": [ 11, 6, 6 ],
+			"faces": {
+				"down": { "uv": [ 5, 9, 11, 10 ], "texture": "#flower_pot", "cullface": "down" },
+				"up": { "uv": [ 5, 4, 11, 5 ], "texture": "#flower_pot" },
+				"north": { "uv": [ 5, 10, 11, 16 ], "texture": "#flower_pot" },
+				"south": { "uv": [ 6, 10, 10, 16 ], "texture": "#flower_pot" }
+			}
+		},
+		{
+			"from": [ 5, 0, 10 ],
+			"to": [ 11, 6, 11 ],
+			"faces": {
+				"down": { "uv": [ 5, 4, 11, 5 ], "texture": "#flower_pot", "cullface": "down" },
+				"up": { "uv": [ 5, 9, 11, 10 ], "texture": "#flower_pot" },
+				"north": { "uv": [ 5, 10, 11, 16 ], "texture": "#flower_pot" },
+				"south": { "uv": [ 5, 10, 11, 16 ], "texture": "#flower_pot" }
+			}
+		},
+		{
+			"from": [ 6, 0, 6 ],
+			"to": [ 10, 5, 10 ],
+			"faces": {
+				"down": { "uv": [ 6, 5, 10, 9 ], "texture": "#flower_pot", "cullface": "down" },
+				"up": { "uv": [ 6, 5, 10, 9 ], "texture": "#flower_pot" }
+			}
+		},
+		{
+			"__comment": "Cactus",
+			"from": [ 6.5, 5, 6.5 ],
+			"to": [ 9.5, 11.5, 9.5 ],
+			"faces": {
+				"up": { "uv": [ 4.5, 8, 8, 11.5 ], "texture": "#cactus_top" },
+				"north": { "uv": [ 4.5, 0, 8, 9 ], "texture": "#cactus_side" },
+				"south": { "uv": [ 4.5, 0, 8, 9 ], "texture": "#cactus_side" },
+				"west": { "uv": [ 4.5, 0, 8, 9 ], "texture": "#cactus_side" },
+				"east": { "uv": [ 4.5, 0, 8, 9 ], "texture": "#cactus_side" }
+			}
+		}
+	]
+}

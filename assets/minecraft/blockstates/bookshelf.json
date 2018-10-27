@@ -1,0 +1,17 @@
+{
+    "variants": {
+		"normal": [
+			{ "model": "bookshelf" },
+			{ "model": "bookshelf_1" },
+			{ "model": "bookshelf_2" },
+			{ "model": "bookshelf_3" },
+			{ "model": "bookshelf_4" },
+			{ "model": "bookshelf_4" },
+			{ "model": "bookshelf_5" },
+			{ "model": "bookshelf_6" },
+			{ "model": "bookshelf_7" },
+			{ "model": "bookshelf_8" },
+			{ "model": "bookshelf_9" }		
+		]
+    }
+}
