@@ -3,10 +3,10 @@
 "ambientocclusion": false,
     "parent": "block/block",
     "textures": {
-        "particle": "blocks/hopper_bottom",
-        "0": "blocks/hopper_top",
-        "1": "blocks/hopper_bottom",
-        "2": "blocks/hopper_outside"
+        "particle": "block/hopper_bottom",
+        "0": "block/hopper_top",
+        "1": "block/hopper_bottom",
+        "2": "block/hopper_outside"
     },
     "elements": [
         {

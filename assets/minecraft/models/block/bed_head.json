@@ -1,11 +1,11 @@
 {
 	"__comment": "Designed by Keitsu with Cubik Studio - https://cubik.studio",
 	"textures": {
-		"particle": "blocks/bed_head_top",
-		"0": "blocks/bed_head_side",
-		"1": "blocks/bed_head_end",
-		"2": "blocks/bed_head_top",
-		"3": "blocks/bed_head_underside"
+		"particle": "block/bed_head_top",
+		"0": "block/bed_head_side",
+		"1": "block/bed_head_end",
+		"2": "block/bed_head_top",
+		"3": "block/bed_head_underside"
 	},
 	"elements": [
 		{

@@ -1,8 +1,8 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
     "textures": {
-        "particle": "blocks/ladder1",
-        "0": "blocks/ladder1"
+        "particle": "block/ladder1",
+        "0": "block/ladder1"
     },
     "elements": [
         {

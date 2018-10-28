@@ -1,8 +1,8 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
     "textures": {
-        "particle": "blocks/sugar_cane",
-        "0": "blocks/sugar_cane"
+        "particle": "block/sugar_cane",
+        "0": "block/sugar_cane"
     },
     "elements": [
         {

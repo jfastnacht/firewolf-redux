@@ -2,11 +2,11 @@
     "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
 "ambientocclusion": false,
     "textures": {
-        "particle": "blocks/hopper_bottom",
-        "0": "blocks/hopper_top",
-        "1": "blocks/hopper_bottom",
-        "2": "blocks/hopper_outside",
-        "3": "blocks/hopper_bottom_alt"
+        "particle": "block/hopper_bottom",
+        "0": "block/hopper_top",
+        "1": "block/hopper_bottom",
+        "2": "block/hopper_outside",
+        "3": "block/hopper_bottom_alt"
     },
     "elements": [
         {

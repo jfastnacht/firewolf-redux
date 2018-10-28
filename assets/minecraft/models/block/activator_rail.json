@@ -1,9 +1,9 @@
 {
 	"ambientocclusion": false,
     "textures": {
-        "particle": "blocks/rail_activator",
-        "0": "blocks/rail_off",
-        "1": "blocks/rail_extra"
+        "particle": "block/rail_activator",
+        "0": "block/rail_off",
+        "1": "block/rail_extra"
     },
     "elements": [
 		{

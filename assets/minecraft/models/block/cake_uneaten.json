@@ -2,11 +2,11 @@
     "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
     "parent": "block/thin_block",
 	"textures": {
-        "particle": "blocks/cake_side",
-        "0": "blocks/cake_side",
-        "1": "blocks/cake_top",
-        "2": "blocks/cake_bottom",
-        "3": "blocks/cake_extra"
+        "particle": "block/cake_side",
+        "0": "block/cake_side",
+        "1": "block/cake_top",
+        "2": "block/cake_bottom",
+        "3": "block/cake_extra"
     },
     "elements": [
         {

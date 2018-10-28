@@ -1,9 +1,9 @@
 {
 "ambientocclusion": false,
     "textures": {
-        "particle": "blocks/rail_detector",
-        "0": "blocks/rail_normal1",
-        "1": "blocks/rail_extra"
+        "particle": "block/rail_detector",
+        "0": "block/rail_normal1",
+        "1": "block/rail_extra"
     },
     "elements": [
 		{

@@ -3,10 +3,10 @@
 	"ambientocclusion": false,
 	"parent": "block/block",
     "textures": {
-        "particle": "blocks/cauldron_side",
-        "0": "blocks/cauldron_side",
-        "1": "blocks/cauldron_top",
-        "2": "blocks/cauldron_bottom"
+        "particle": "block/cauldron_side",
+        "0": "block/cauldron_side",
+        "1": "block/cauldron_top",
+        "2": "block/cauldron_bottom"
     },
     "elements": [
         {

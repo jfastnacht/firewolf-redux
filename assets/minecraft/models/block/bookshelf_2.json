@@ -2,10 +2,10 @@
 	"ambientocclusion": false,
 	"parent": "block/cube",
     "textures": {
-        "particle": "blocks/bookshelf",
-        "0": "blocks/bookshelf",
-        "1": "blocks/planks_oak",
-        "2": "blocks/bookshelf_books_2"
+        "particle": "block/bookshelf",
+        "0": "block/bookshelf",
+        "1": "block/planks_oak",
+        "2": "block/bookshelf_books_2"
     },
     "elements": [
         {

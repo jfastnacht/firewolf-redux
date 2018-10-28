@@ -2,8 +2,8 @@
 	"__comment": "Designed by Keitsu with Cubik Studio - https://cubik.studio",
 	"ambientocclusion": false,
 	"textures": {
-		"particle": "blocks/planks_acacia",
-		"0": "blocks/door_acacia"
+		"particle": "block/planks_acacia",
+		"0": "block/door_acacia"
 	},
 	"elements": [
 		{

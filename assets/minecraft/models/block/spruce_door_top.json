@@ -1,8 +1,8 @@
 {
 	"ambientocclusion": false,
 	"textures": {
-		"particle": "blocks/planks_spruce",
-		"0": "blocks/door_spruce"
+		"particle": "block/planks_spruce",
+		"0": "block/door_spruce"
 	},
 	"elements": [
 		{
