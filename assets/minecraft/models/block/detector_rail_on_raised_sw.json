@@ -1,8 +1,8 @@
 {
-    "parent": "block/template_rail_raised_ne",
+"ambientocclusion": false,
     "textures": {
-        "rail": "block/powered_rail_on",
-        "0": "block/rail_on",
+        "particle": "block/detector_rail_on",
+        "0": "block/rail_normal1",
         "1": "block/rail_extra"
     },
     "elements": [
@@ -85,57 +85,30 @@
 			}
 		},
         {
-            "name": "Rail Right",
-            "from": [ 13.0, 17.0, 0.0 ], 
-            "to": [ 14.0, 18.0, 23.400000005960464 ], 
-            "rotation": { "origin": [ 3.0, 18.0, 0.0 ], "axis": "x", "angle": 45.0 },
-            "faces": {
-                "north": { "texture": "#0", "uv": [ 0.0, 15.0, 1.0, 16.0 ] },
-                "east": { "texture": "#0", "uv": [ 0.0, 15.0, 1.0, 16.0 ] },
-                "south": { "texture": "#0", "uv": [ 0.0, 15.0, 1.0, 16.0 ] },
-                "west": { "texture": "#0", "uv": [ 0.0, 15.0, 1.0, 16.0 ] },
-                "up": { "texture": "#0", "uv": [ 0.0, 15.0, 1.0, 16.0 ] },
-                "down": { "texture": "#0", "uv": [ 0.0, 15.0, 1.0, 16.0 ] }
-            }
-        },
-        {
             "name": "Redstone",
-            "from": [ 7.0, 2.6000000074505802, -2.4000000059604645 ], 
-            "to": [ 9.0, 3.000000005960464, 13.0 ], 
-            "rotation": { "origin": [ 3.0, 3.0999999940395355, 13.0 ], "axis": "x", "angle": 45.0 },
+            "from": [ 5.0, 10.699999995529652, 4.899999998509884 ], 
+            "to": [ 11.0, 11.699999995529652, 12.799999997019768 ], 
+            "rotation": { "origin": [ 8.0, 11.6, 5.0 ], "axis": "x", "angle": 45.0 },
             "faces": {
-                "east": { "texture": "#1", "uv": [ 7.0, 6.0, 7.5, 16.0 ], "rotation": 270 },
-                "west": { "texture": "#1", "uv": [ 4.5, 6.0, 4.999999999999999, 16.0 ], "rotation": 90 },
-                "up": { "texture": "#1", "uv": [ 5.0, 6.0, 7.0, 16.0 ] },
-                "down": { "texture": "#1", "uv": [ 5.0, 6.0, 7.0, 16.0 ] }
+                "north": { "texture": "#1", "uv": [ 9.0, 0.0, 15.0, 1.0 ] },
+                "east": { "texture": "#1", "uv": [ 15.0, 1.0, 16.0, 7.0 ], "rotation": 270 },
+                "south": { "texture": "#1", "uv": [ 9.0, 7.0, 15.0, 8.0 ] },
+                "west": { "texture": "#1", "uv": [ 8.0, 1.0, 9.0, 7.0 ], "rotation": 90 },
+                "up": { "texture": "#1", "uv": [ 9.0, 1.0, 15.0, 7.0 ] },
+                "down": { "texture": "#1", "uv": [ 9.0, 1.0, 15.0, 7.0 ] }
             }
         },
         {
-            "name": "Gold Left",
-            "from": [ 3.0, 17.0, 0.0 ], 
-            "to": [ 4.0, 18.0, 23.4 ], 
-            "rotation": { "origin": [ 3.0, 18.0, 0.0 ], "axis": "x", "angle": 45.0 },
+            "name": "Stone",
+            "from": [ 6.0, 10.799999982118607, 6.0 ], 
+            "to": [ 10.0, 11.799999982118607, 11.9 ], 
+            "rotation": { "origin": [ 8.0, 11.6, 5.0 ], "axis": "x", "angle": 45.0 },
             "faces": {
-                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
-                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
-                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
-                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
-                "up": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
-                "down": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
-            }
-        },
-        {
-            "name": "Gold Right",
-            "from": [ 12.0, 17.0, 0.0 ], 
-            "to": [ 13.0, 18.0, 23.4 ], 
-            "rotation": { "origin": [ 3.0, 18.0, 0.0 ], "axis": "x", "angle": 45.0 },
-            "faces": {
-                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
-                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
-                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
-                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
-                "up": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
-                "down": { "texture": "#0", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
+                "north": { "texture": "#1", "uv": [ 1.0, 0.0, 5.0, 1.0 ] },
+                "east": { "texture": "#1", "uv": [ 5.0, 1.0, 6.0, 5.0 ], "rotation": 270 },
+                "south": { "texture": "#1", "uv": [ 1.0, 5.0, 5.0, 6.0 ] },
+                "west": { "texture": "#1", "uv": [ 0.0, 1.0, 1.0, 5.0 ], "rotation": 90 },
+                "up": { "texture": "#1", "uv": [ 1.0, 1.0, 5.0, 5.0 ] }
             }
         }
 	]

@@ -2,7 +2,7 @@
 	"__comment": "Designed by Keitsu with Cubik Studio - https://cubik.studio",
 	"ambientocclusion": false,
 	"textures": {
-		"particle": "block/rail_detector_powered",
+		"particle": "block/detector_rail_on",
 		"0": "block/rail_normal1",
 		"1": "block/rail_extra"
 	},
