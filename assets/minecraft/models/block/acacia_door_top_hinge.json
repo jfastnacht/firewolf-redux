@@ -1,7 +1,7 @@
 {
 	"ambientocclusion": false,
     "textures": {
-        "particle": "block/planks_acacia",
+        "particle": "block/acacia_planks",
         "0": "block/door_acacia"
     },
     "elements": [

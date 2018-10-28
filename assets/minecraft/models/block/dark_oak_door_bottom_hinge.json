@@ -2,7 +2,7 @@
 	"__comment": "Designed by Keitsu with Cubik Studio - https://cubik.studio",
 	"ambientocclusion": false,
 	"textures": {
-		"particle": "block/planks_big_oak",
+		"particle": "block/dark_oak_planks",
 		"0": "block/door_dark_oak"
 	},
 	"elements": [

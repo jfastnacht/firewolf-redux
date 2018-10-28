@@ -1,7 +1,7 @@
 {
 	"ambientocclusion": false,
 	"textures": {
-		"particle": "block/planks_jungle",
+		"particle": "block/jungle_planks",
 		"0": "block/door_jungle"
 	},
 	"elements": [
