@@ -4,7 +4,7 @@
     "textures": {
         "particle": "block/bookshelf",
         "0": "block/bookshelf",
-        "1": "block/planks_oak",
+        "1": "block/oak_planks",
         "2": "block/bookshelf_books_7"
     },
     "elements": [
