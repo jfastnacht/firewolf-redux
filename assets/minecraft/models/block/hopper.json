@@ -1,9 +1,8 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
-"ambientocclusion": false,
-    "parent": "block/block",
+    "ambientocclusion": false,
     "textures": {
-        "particle": "block/hopper_bottom",
+        "particle": "block/hopper_outside",
         "0": "block/hopper_top",
         "1": "block/hopper_bottom",
         "2": "block/hopper_outside"
